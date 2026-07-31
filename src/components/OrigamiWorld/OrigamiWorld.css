@@ -8,12 +8,11 @@
 
 .actor {
   will-change: transform;
-  opacity: 0.9;
+  opacity: 0.85;
 }
 
 .actor svg {
   display: block;
-  filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.08));
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -24,6 +23,6 @@
 
 @media (max-width: 720px) {
   .origami-world {
-    opacity: 0.6;
+    opacity: 0.5;
   }
 }

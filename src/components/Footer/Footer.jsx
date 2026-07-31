@@ -1,5 +1,5 @@
 import React from 'react';
-import { PaperPlane } from '../OrigamiWorld/PaperShapes';
+import { PaperSword } from '../OrigamiWorld/PaperShapes';
 import data from '../../data.json';
 import './Footer.css';
 
@@ -8,7 +8,7 @@ export default function Footer() {
 
   return (
     <footer id="contact" className="section footer">
-      <PaperPlane className="footer__plane" width="70" height="42" style={{ color: 'var(--accent)' }} />
+      <PaperSword className="footer__plane" width="36" height="70" style={{ color: 'var(--accent)' }} />
       <h2>Let's fold something together.</h2>
       <p>Have a project in mind, or just want to say hi? My inbox is always open.</p>
       <div className="footer__cta">

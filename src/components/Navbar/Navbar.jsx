@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useTheme } from '../../ThemeContext';
-import { PaperBird, PaperSun, PaperMoon } from '../OrigamiWorld/PaperShapes';
+import { PaperBat, PaperSun, PaperMoon } from '../OrigamiWorld/PaperShapes';
 import data from '../../data.json';
 import './Navbar.css';
 
@@ -33,7 +33,7 @@ export default function Navbar() {
     <header className="nav">
       <div className="nav__bar">
         <a href="#home" className="nav__brand" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>
-          <PaperBird className="nav__bird" style={{ color: 'var(--accent)' }} width="22" height="22" />
+          <PaperBat className="nav__bird" style={{ color: 'var(--accent)' }} width="22" height="22" />
           <span>{data.about.name}</span>
         </a>
 

@@ -21,6 +21,28 @@
   margin-bottom: 16px;
 }
 
+.certs__badge-placeholder {
+  width: 76px;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface2, #f0f0f0);
+  border: 1px solid var(--line, #e0e0e0);
+  border-radius: 12px;
+  color: var(--faint, #999);
+  font-size: 0.65rem;
+  font-style: italic;
+  margin-bottom: 16px;
+}
+
+.certs__view-link {
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
 .certs__score {
   display: inline-flex;
   align-items: center;
@@ -76,6 +98,23 @@
     height: 44px;
     margin-bottom: 0;
     align-self: center;
+  }
+
+  .certs__badge-placeholder {
+    grid-column: 1;
+    grid-row: 1 / 4;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 0;
+    align-self: center;
+    border-radius: 8px;
+    font-size: 0.5rem;
+  }
+
+  .certs__view-link {
+    grid-column: 2;
+    grid-row: 4;
+    font-size: 0.67rem;
   }
 
   .certs__score {

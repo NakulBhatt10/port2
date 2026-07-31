@@ -1,202 +1,274 @@
 {
   "about": {
-    "name": "Parth Bhatt",
+    "name": "Nakul Bhatt",
     "title": "Software Engineer",
-    "handle": "parthbhatt268",
+    "handle": "nakulbhatt106",
     "status": "Online",
-    "linkedIn": "https://www.linkedin.com/in/parth-bhatt-092024186/",
-    "bio": "Hi 👋, my name is Parth and I am currently working at Siren as a Software Engineer. I have been working in the field of Software Engineering for almost 4.5 years now. I achieved First Class Honours 🎖️ in my Master's Degree 🎓 in Information Systems Management (ISM) from the University of Galway 🏛. I have a passion for building software that makes sense in the real world, and now I am also working with AI and Machine Learning. Thanks for taking your time to visit my page. 😁"
+    "location": "Mumbai, India",
+    "linkedIn": "https://www.linkedin.com/in/nakul-bhatt-157aba24a/",
+    "github": "https://github.com/NakulBhatt10",
+    "leetcode": "https://leetcode.com/u/Nakul_Bhatt/",
+    "coursera": "https://www.coursera.org/account-profile",
+    "bio": "Hi,👋 my name is Nakul and I am currently studying in Mumbai University for Artificial Intelligence and Data Science course. I've earned many certificates and badges which you can see in my Certifications section and I'm maintaining a First Class Honour so far. I'll complete my degree in 2028 from University of Mumbai🏛 . I have passion to build Software which make sense in real world and now with using AI and Machine Learning.Thanks for taking your time to visit my page. 😁"
   },
   "home": {
-    "greeting": "Hi, I'm Parth,",
-    "subtitle": "an Experienced {role} Engineer, based in Galway, Ireland.",
-    "roles": ["software", "full-stack", "frontend", "backend"],
-    "linkedIn": "https://www.linkedin.com/in/parth-bhatt-092024186/"
+    "greeting": "Hi, I'm Nakul,",
+    "subtitle": "an Experienced {role} Developer, based in Mumbai , India.",
+    "roles": ["backend", "software", "full-stack", "frontend"],
+    "linkedIn": "https://www.linkedin.com/in/nakul-bhatt-157aba24a/"
   },
   "workExperience": [
     {
       "id": 1,
-      "position": "Software Engineer",
-      "company": "Siren",
-      "duration": "Jan 2024 - Present",
-      "totalDuration": "2 yrs 5 mos",
+      "position": "Web Developer Intern",
+      "company": "PuzzleWood",
+      "type": "Internship",
+      "location": "Mumbai, India",
+      "duration": "2025",
+      "totalDuration": "Internship",
       "progression": [
         {
-          "role": "Intern",
-          "period": "Jan 2024 – Mar 2024",
+          "role": "Web Developer Intern",
+          "period": "2025",
           "bullets": [
-            "Built an Ollama + Langchain RAG documentation app, boosting client engagement by 4×.",
-            "Automated i18n for 1,600+ strings across 15+ languages via OpenAI ChatGPT API."
-          ]
-        },
-        {
-          "role": "Software Engineer",
-          "period": "Apr 2024 – Present",
-          "bullets": [
-            "Cut 24% cloud costs by optimising Kubernetes POD allocation in the CI/CD pipeline.",
-            "Coded 3 G6 graph features, helping secure a $235K annual contract.",
-            "Migrated deprecated Elasticsearch client to ES9, enabling 23 clients to upgrade."
+            "Built and improved key e-commerce screens for puzzle wood (Home, Product listing, Cart, Checkout). Implemented Cart features: add/remove items, quantity increment/decrement, and dynamic order summary calculations.",
+            "Solution for payment gateway, whatsapp integration for better communication.",
+            "Improved overall performance and responsiveness."
           ]
         }
       ],
       "coreTech": [
-        "Frontend - React, Angular, JavaScript, TypeScript, HTML, CSS",
-        "Backend - Node, Express",
-        "Database - ElasticSearch, OpenSearch, MongoDB",
-        "Testing - Jest, Cypress, Mocha, Karma",
-        "CI/CD - Jenkins, Docker, k8s, Pipeline automation, GitHub Actions",
-        "Cloud - AWS Cloud Services, Google Cloud Platform"
+        "Frontend - React, JavaScript, CSS, HTML",
+        "Integration - Whatsapp integration"
       ],
-      "image": "src/assets/images/SirenPhoto.jpg",
-      "visitLink": "https://siren.io/"
+      "image": "N/A",
+      "visitLink": "https://puzzlewood.netlify.app/"
     },
     {
       "id": 2,
-      "position": "Senior Software Developer",
-      "company": "Reliance Jio",
-      "duration": "Nov 2020 - Jul 2023",
-      "totalDuration": "2 yrs 8 mos",
+      "position": "Software Developer Intern",
+      "company": "OM Solutions",
+      "type": "Internship",
+      "location": "Mumbai, India",
+      "duration": "2025",
+      "totalDuration": "Internship",
       "progression": [
         {
-          "role": "Software Developer",
-          "period": "Nov 2020 – 2021",
+          "role": "Software Developer Intern",
+          "period": "2025",
           "bullets": [
-            "Migrated MARCOM and 5 legacy projects from JavaScript to TypeScript + functional React, improving OOP design by 40%.",
-            "Launched the JIO Bharat Phone website end-to-end within a month for PAN Indian retailers."
-          ]
-        },
-        {
-          "role": "Senior Software Developer",
-          "period": "2022 – Jul 2023",
-          "bullets": [
-            "Led 8-member team with Agile/Scrum, owning architecture decisions and DevOps workflows.",
-            "Built 18+ apps from scratch using TDD and SOLID principles with a robust MVC architecture.",
-            "Introduced JEST TDD, cutting bugs by 80% across all feature branches."
+            "Built a Mudra Loan web app that lets users explore PMMY categories (Shishu/Kishore/Tarun), check eligibility, and apply through a guided form.",
+            "Implemented an end-to-end application flow with validation, document/KYC upload and which directly gets sent to our email id using EmailJS.",
+            "Developed an admin side to review applications, verify documents and update approval status to streamline the process."
           ]
         }
       ],
       "coreTech": [
-        "React, Javascript, Redux, Redux-toolkit, Thunk",
-        "Microservices Architecture",
-        "Redis, MySQL & PostgreSQL Database"
+        "Frontend - React, HTML, CSS, JS",
+        "Backend - Node.js, Express, REST API",
+        "Other - Resend API, Render"
       ],
-      "image": "src/assets/images/jio.jpg",
-      "visitLink": "https://www.jio.com/"
+      "image": "N/A",
+      "visitLink": "https://mudraloan1.netlify.app/"
+    },
+    {
+      "id": 3,
+      "position": "Technical Lead (Marketing Team)",
+      "company": "S4DS Club",
+      "type": "Leadership",
+      "location": "University",
+      "duration": "Present",
+      "totalDuration": "Leadership",
+      "progression": [
+        {
+          "role": "Technical Lead",
+          "period": "Present",
+          "bullets": [
+            "Led technical tasks for the marketing team and handled web/creative tech requirements.",
+            "Managed event/announcement assets and improved team execution with tooling/workflows.",
+            "Coordinated with core members to support campaigns and club initiatives."
+          ]
+        }
+      ],
+      "coreTech": [
+        "Team Leadership, Web, Design + Tech"
+      ],
+      "image": "N/A",
+      "visitLink": "N/A"
     }
   ],
   "education": [
     {
       "id": 1,
-      "degree": "Masters of Science",
-      "university": "University of Galway, Ireland",
-      "course": "Information System Management",
-      "duration": "Aug 2023 – Aug 2024",
-      "score": "1st Class Honours",
-      "scoreDetail": "First Class Honours in all Tech Modules",
+      "degree": "Bachelor of Technology",
+      "university": "Mumbai University",
+      "course": "Artificial Intelligence and Data Science",
+      "duration": "August 2024 - May 2028",
+      "score": "Aimed to get First Class Honours",
+      "scoreDetail": "N/A",
       "coreSubjects": [
         "Web Development",
-        "C# Programming",
+        "C#(C Sharp) Programming",
         "Database Management",
-        "Machine Learning",
-        "Cloud Computing"
+        "Machine Learning and Modelling",
+        "Cloud Computing",
+        "Java Programming",
+        "Data Structures and Algorithms",
+        "Python Programming",
+        "Data Science and Visualization"
       ],
-      "visitLink": "https://www.universityofgalway.ie/"
+      "image": "src/assets/images/nakul-assets/bachelor-university.jpg",
+      "visitLink": "https://kjsieit.somaiya.edu.in/"
     },
     {
       "id": 2,
-      "degree": "Bachelor of Engineering",
-      "university": "Mumbai University, India",
-      "course": "Computer Engineering",
-      "duration": "Aug 2016 – Jul 2020",
-      "score": "8.61 / 10",
-      "scoreDetail": "First Class Honours",
+      "degree": "Higher Secondary Certificate (HSC)",
+      "university": "Mumbai University",
+      "course": "Computer Science (Information Technology)",
+      "duration": "August 2022 - August 2024",
+      "score": "First Class Honours",
+      "scoreDetail": "N/A",
       "coreSubjects": [
-        "OOP & Java",
-        "Database Management",
+        "Physics",
+        "Chemistry",
+        "Mathematics",
         "C/C++ Programming",
-        "Network Security",
-        "Data Encryption"
+        "HTTP and Web Designing",
+        "HTML and CSS"
       ],
+      "image": "src/assets/images/nakul-assets/hsc.jpg",
       "visitLink": "https://mu.ac.in/"
     }
   ],
   "certificates": [
     {
       "id": 1,
-      "name": "Microsoft Certified Azure Cloud Fundamentals",
-      "image": "src/assets/images/b1.png",
+      "name": "Data Analysis with Python",
+      "image": "N/A",
       "score": "Certified",
-      "description": "AZ-700: Microsoft certified",
-      "link": "https://www.credly.com/badges/6259f4dc-87c0-46f3-92e5-9ebe14857f03/public_url"
+      "description": "Data Analysis with Python by IBM",
+      "link": "https://www.credly.com/badges/0c2b9ac0-aafe-4ea4-9aac-fa2fecbb4a4a/public_url"
     },
     {
       "id": 2,
-      "name": "Microsoft MTA Introduction to Programming using Python",
-      "image": "src/assets/images/b2.png",
+      "name": "OCI AI Foundations",
+      "image": "N/A",
       "score": "Certified",
-      "description": "MTA-98-381: Microsoft certified",
-      "link": "https://www.credly.com/badges/3c0ab82f-5e01-4f04-b0a2-bc941e051dbe/public_url"
+      "description": "OCI AI Foundations",
+      "link": "https://mylearn.oracle.com/ou/learning-path/become-a-oci-ai-foundations-associate-2025/147781"
     },
     {
       "id": 3,
-      "name": "Python for Data Science by IBM Cognitive Class",
-      "image": "src/assets/images/b3.png",
+      "name": "OCI Generative AI",
+      "image": "N/A",
       "score": "95%",
       "description": "Data science by IBM",
-      "link": "https://www.credly.com/badges/94b202b1-70bd-422b-bf70-686b845050e3/public_url"
+      "link": "https://mylearn.oracle.com/ou/learning-path/become-an-oci-generative-ai-professional-2025/147863"
     },
     {
       "id": 4,
-      "name": "Machine Learning with Python by IBM Developer Skills Network",
-      "image": "src/assets/images/b4.png",
+      "name": "Oracle AI Vector Search",
+      "image": "N/A",
       "score": "91%",
       "description": "Machine Learning by IBM",
-      "link": "https://www.credly.com/badges/22172d49-616c-4a81-b10a-6ae77bb9c2c2/public_url"
+      "link": "https://mylearn.oracle.com/ou/learning-path/become-an-oracle-ai-vector-search-professional/144854"
     },
     {
       "id": 5,
-      "name": "Specialization in Web Development by Coursera",
-      "image": "src/assets/images/b5.png",
+      "name": "OCI Data Science",
+      "image": "N/A",
       "score": "95%",
       "description": "Specialization by Coursera",
-      "link": "https://coursera.org/share/2da5a65dfb1d33363d2f6f89c45ddf32"
+      "link": "https://mylearn.oracle.com/ou/learning-path/become-an-oci-data-science-professional-2025/148474"
     },
     {
       "id": 6,
-      "name": "Specialization in Python Language by Coursera",
-      "image": "src/assets/images/b5.png",
+      "name": "React Basics by Coursera",
+      "image": "N/A",
       "score": "90%",
       "description": "Specialization by Coursera",
-      "link": "https://coursera.org/share/14a23fc4cf4ebb1940c89487f8758fe2"
+      "link": "https://www.coursera.org/account/accomplishments/verify/WGSFF4MB7RT5"
+    },
+    {
+      "id": 7,
+      "name": "Data Analysis with Python",
+      "image": "N/A",
+      "score": "90%",
+      "description": "Specialization by IBM",
+      "link": "https://www.coursera.org/account/accomplishments/verify/QQ28Z4X2W9GM"
+    },
+    {
+      "id": 8,
+      "name": "Interactivity with JavaScript",
+      "image": "N/A",
+      "score": "90%",
+      "description": "Specialization by UNIVERSITY OF MICHIGAN",
+      "link": "https://www.coursera.org/account/accomplishments/verify/RAL39DT3WU62"
+    },
+    {
+      "id": 9,
+      "name": "Python for Data Science, AI & Development",
+      "image": "N/A",
+      "score": "90%",
+      "description": "Specialization by IBM",
+      "link": "https://www.coursera.org/account/accomplishments/verify/4NAH6BELTZJ2"
     }
   ],
   "projects": [
     {
       "id": 1,
-      "imageKey": "brainStack",
-      "title": "Brain Stack — AI Knowledge Graph Platform",
-      "date": "May 2026",
+      "imageKey": "parkLink",
+      "title": "ParkLink",
+      "date": "N/A",
+      "description": "ParkLink is a smart app that connects drivers with available rental parking spots, making parking simple, fast and hassle-free.",
       "techCategories": {
-        "Frontend": ["React 19", "ReactFlow", "Vite"],
-        "Backend": ["Node.js", "Express", "Supabase", "pgvector"],
-        "AI & Auth": ["Google Gemini API", "Supabase Auth", "Google OAuth"],
-        "Deploy": ["Netlify", "Render"]
+        "Frontend": ["React", "Redux", "Redux Toolkit Thunk"],
+        "Languages": ["HTML", "CSS", "JavaScript", "TypeScript"],
+        "Backend": ["ExpressJS", "NodeJS", "REST API"],
+        "Database & Payment": ["MongoDB", "Stripe Payment Integration"],
+        "Deploy": ["Amazon Web Service (AWS)"]
       },
-      "liveLink": "https://brain-stacked.netlify.app/",
-      "githubLink": "https://github.com/parthbhatt268/brain-stack"
+      "liveLink": "https://parklink1.netlify.app/",
+      "githubLink": "https://github.com/NakulBhatt10/Parklink"
     },
     {
       "id": 2,
-      "imageKey": "rapidBasket",
-      "title": "Rapid Basket — End-to-End Food Ordering App",
-      "date": "Jun 2023",
+      "imageKey": "sionDrop",
+      "title": "SionDrop",
+      "date": "N/A",
+      "description": "SionDrop helps users book auto/taxi/walk routes from college to Sion station, connect with others and share ride fare.",
       "techCategories": {
-        "Frontend": ["React", "Redux Toolkit", "JavaScript", "CSS"],
-        "Backend": ["Node.js", "Express", "MongoDB"],
-        "Payment & Deploy": ["Stripe", "AWS"]
+        "Frontend": ["React", "JavaScript", "HTML", "CSS"],
+        "Backend & AI": ["MongoDB", "Google Maps API", "AI Chatbot"]
       },
-      "liveLink": "https://rapid-basket.netlify.app/",
-      "githubLink": "https://github.com/parthbhatt268/ui-rapidBasket"
+      "liveLink": "https://siondrop.netlify.app/",
+      "githubLink": "https://github.com/NakulBhatt10/ui-sionDrop"
+    },
+    {
+      "id": 3,
+      "imageKey": "puzzleWood",
+      "title": "Puzzle Wood",
+      "date": "N/A",
+      "description": "PuzzleWood is a wooden puzzle and educational toy store website designed to make finding, adding, and purchasing learning toys quick and easy.",
+      "techCategories": {
+        "Frontend": ["React", "JavaScript", "HTML", "CSS"],
+        "Backend & Deploy": ["MongoDB", "Resend API", "Render"]
+      },
+      "liveLink": "https://puzzlewood.netlify.app/",
+      "githubLink": "https://github.com/NakulBhatt10/baldaniya"
+    },
+    {
+      "id": 4,
+      "imageKey": "mudraLoan",
+      "title": "Mudra Loan",
+      "date": "N/A",
+      "description": "Mudra Loan is a web app that helps users explore PMMY (MUDRA) loan options, check eligibility, and submit a loan application with document upload and application tracking.",
+      "techCategories": {
+        "Frontend": ["React", "JavaScript", "HTML", "CSS"],
+        "Backend & Deploy": ["MongoDB", "EmailJS", "Resend API", "Render"]
+      },
+      "liveLink": "https://mudraloan1.netlify.app/",
+      "githubLink": "https://github.com/NakulBhatt10/mudra-loans"
     }
   ],
   "skills": {
@@ -204,47 +276,27 @@
       { "name": "HTML", "iconKey": "html", "link": "https://developer.mozilla.org/en-US/docs/Web/HTML" },
       { "name": "CSS", "iconKey": "css", "link": "https://developer.mozilla.org/en-US/docs/Web/CSS" },
       { "name": "JavaScript", "iconKey": "js", "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
-      { "name": "TypeScript", "iconKey": "typescript", "link": "https://www.typescriptlang.org/" },
       { "name": "React", "iconKey": "react", "link": "https://reactjs.org/" },
-      { "name": "Next.js", "iconKey": "next", "link": "https://nextjs.org/" },
-      { "name": "AngularJS", "iconKey": "angular", "link": "https://angular.io/" },
-      { "name": "Redux Toolkit", "iconKey": "redux", "link": "https://redux-toolkit.js.org/" },
-      { "name": "Material UI", "iconKey": "materialUI", "link": "https://mui.com/" },
-      { "name": "Bootstrap", "iconKey": "bootstrap", "link": "https://getbootstrap.com/" }
+      { "name": "Next.js", "iconKey": "next", "link": "https://nextjs.org/" }
     ],
     "Backend & APIs": [
       { "name": "Node.js", "iconKey": "node", "link": "https://nodejs.org/" },
       { "name": "Express.js", "iconKey": "express", "link": "https://expressjs.com/" },
       { "name": "REST API", "iconKey": "rest", "link": "https://restfulapi.net/" },
-      { "name": "GraphQL", "iconKey": "graphql", "link": "https://graphql.org/" },
-      { "name": "JWT", "iconKey": "jwt", "link": "https://jwt.io/" },
-      { "name": "Firebase", "iconKey": "firebase", "link": "https://firebase.google.com/" },
-      { "name": "Stripe Payments", "iconKey": "stripe", "link": "https://stripe.com/" },
-      { "name": "OpenAI LLM (API)", "iconKey": "openai", "link": "https://openai.com/api/" }
+      { "name": "Firebase", "iconKey": "firebase", "link": "https://firebase.google.com/" }
     ],
     "Databases & Test": [
       { "name": "MongoDB", "iconKey": "mongodb", "link": "https://www.mongodb.com/" },
-      { "name": "Elasticsearch", "iconKey": "elasticsearch", "link": "https://www.elastic.co/elasticsearch/" },
-      { "name": "MariaDB", "iconKey": "mariadb", "link": "https://mariadb.org/" },
-      { "name": "SQL", "iconKey": "mysql", "link": "https://www.mysql.com/" },
-      { "name": "OpenSearch", "iconKey": "opensearch", "link": "https://opensearch.org/" },
-      { "name": "Jest", "iconKey": "jest", "link": "https://jestjs.io/" },
-      { "name": "Cypress", "iconKey": "cypress", "link": "https://www.cypress.io/" }
+      { "name": "SQL", "iconKey": "mysql", "link": "https://www.mysql.com/" }
     ],
     "DevOps, Cloud & CI/CD": [
-      { "name": "Docker", "iconKey": "docker", "link": "https://www.docker.com/" },
-      { "name": "Kubernetes", "iconKey": "kubernetes", "link": "https://kubernetes.io/" },
-      { "name": "Jenkins (CI/CD)", "iconKey": "jenkins", "link": "https://www.jenkins.io/" },
       { "name": "AWS", "iconKey": "aws", "link": "https://aws.amazon.com/" },
       { "name": "Google Cloud", "iconKey": "googleCloud", "link": "https://cloud.google.com/" }
     ],
     "Version Control & Other Tech": [
       { "name": "Git", "iconKey": "git", "link": "https://git-scm.com/" },
       { "name": "GitHub", "iconKey": "github", "link": "https://github.com/" },
-      { "name": "NPM", "iconKey": "npm", "link": "https://www.npmjs.com/" },
-      { "name": "Yarn", "iconKey": "yarn", "link": "https://yarnpkg.com/" },
-      { "name": "Groovy", "iconKey": "groovy", "link": "https://groovy-lang.org/" },
-      { "name": "YAML", "iconKey": "yml", "link": "https://yaml.org/" }
+      { "name": "NPM", "iconKey": "npm", "link": "https://www.npmjs.com/" }
     ],
     "Operating Systems": [
       { "name": "Linux", "iconKey": "linux", "link": "https://www.linux.org/" },
@@ -252,17 +304,5 @@
       { "name": "Mac", "iconKey": "mac", "link": "https://www.apple.com/macos/" }
     ]
   },
-  "recentWork": [
-    {
-      "id": 1,
-      "title": "A vscode extension - Console Log with Emoji",
-      "description": "Hit Alt + P to insert console.log statements with a random emoji and the filename.",
-      "searchName": "console-log-with-emoji",
-      "downloads": "22 installs",
-      "version": "0.0.6",
-      "image": "src/assets/images/console.gif",
-      "marketplaceLink": "https://marketplace.visualstudio.com/items?itemName=console-log-with-emoji.console-log-with-emoji",
-      "githubLink": "https://github.com/parthbhatt268/console-log-with-emoji"
-    }
-  ]
+  "recentWork": []
 }

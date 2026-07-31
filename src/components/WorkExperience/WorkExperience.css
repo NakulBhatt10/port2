@@ -5,13 +5,27 @@
   margin-top: 40px;
 }
 
-/* ── Card: text left, image right ── */
+/* ── Card: with image placeholder ── */
 .experience__card {
   display: grid;
-  grid-template-columns: 1fr 437px;
-  gap: 36px;
+  grid-template-columns: 1fr 200px;
+  gap: 24px;
   padding: 32px;
   align-items: start;
+}
+
+.experience__img-placeholder {
+  width: 100%;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface2, #f0f0f0);
+  border: 1px solid var(--line, #e0e0e0);
+  border-radius: 8px;
+  color: var(--faint, #999);
+  font-size: 0.85rem;
+  font-style: italic;
 }
 
 /* ── Left column ── */
@@ -60,6 +74,30 @@
 .experience__duration {
   color: var(--soft);
   font-size: 0.82rem;
+}
+
+.experience__location {
+  color: var(--faint);
+  font-size: 0.82rem;
+}
+
+.experience__type-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--accent-ink);
+  font-size: 0.72rem;
+  font-weight: 700;
+  font-family: 'Space Mono', monospace;
+  letter-spacing: 0.02em;
+}
+
+.experience__intro {
+  color: var(--soft);
+  font-size: 0.95rem;
+  margin-top: 8px;
 }
 
 .experience__total-badge {
@@ -189,34 +227,14 @@
   padding: 4px 10px;
 }
 
-/* ── Right column: company image ── */
-.experience__photo {
-  width: 100%;
-  height: 483px;
-  object-fit: cover;
-  border-radius: 16px;
-  position: sticky;
-  top: 100px;
-}
-
 /* ── Responsive ── */
 @media (max-width: 760px) {
   .experience__card {
     grid-template-columns: 1fr;
-    padding: 0;
-    overflow: hidden;
+    padding: 20px;
   }
 
-  .experience__content {
-    padding: 24px 20px;
-  }
-
-  .experience__photo {
-    display: block;
-    order: -1;
-    width: 100%;
-    height: 200px;
-    border-radius: 0;
-    position: static;
+  .experience__img-placeholder {
+    height: 120px;
   }
 }

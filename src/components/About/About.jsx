@@ -1,10 +1,9 @@
 import React from 'react';
-import headshot from '../Home/parth.jpeg';
 import data from '../../data.json';
 import './About.css';
 
 export default function About() {
-  const { name, handle, linkedIn, bio } = data.about;
+  const { name, handle, linkedIn, github, leetcode, coursera, bio, location } = data.about;
 
   return (
     <section id="about" className="section about">
@@ -22,12 +21,30 @@ export default function About() {
             <a href={linkedIn} target="_blank" rel="noreferrer" className="pill">
               LinkedIn ↗
             </a>
+            {github && (
+              <a href={github} target="_blank" rel="noreferrer" className="pill">
+                GitHub ↗
+              </a>
+            )}
+            {leetcode && (
+              <a href={leetcode} target="_blank" rel="noreferrer" className="pill">
+                LeetCode ↗
+              </a>
+            )}
+            {coursera && (
+              <a href={coursera} target="_blank" rel="noreferrer" className="pill">
+                Coursera ↗
+              </a>
+            )}
           </div>
         </div>
 
         <div className="about__portrait card">
-          <img src={headshot} alt={`${name} headshot`} loading="lazy" />
-          <span className="about__tag pill">📍 Galway, IE</span>
+          {/* Profile photo placeholder — will be filled later */}
+          <div className="about__img-placeholder">
+            <span>{name}</span>
+          </div>
+          <span className="about__tag pill">📍 {location}</span>
         </div>
       </div>
     </section>

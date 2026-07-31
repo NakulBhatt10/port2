@@ -1,10 +1,6 @@
 import React from 'react';
-import masterUniversity from '../../assets/images/Master_University.jpeg';
-import bachelorUniversity from '../../assets/images/Bachelor_University.jpg';
 import data from '../../data.json';
 import './Education.css';
-
-const IMAGES = { 1: masterUniversity, 2: bachelorUniversity };
 
 export default function Education() {
   return (
@@ -18,7 +14,10 @@ export default function Education() {
       <div className="education__grid">
         {data.education.map((edu) => (
           <div key={edu.id} className="education__card card">
-            <img className="education__img" src={IMAGES[edu.id]} alt={edu.university} loading="lazy" />
+            {/* Image placeholder — will be filled later */}
+            <div className="education__img-placeholder">
+              <span>{edu.university}</span>
+            </div>
 
             <div className="education__body">
               {/* Duration — top priority */}
@@ -33,7 +32,7 @@ export default function Education() {
               {/* Score — highlighted badge */}
               <div className="education__score-wrap">
                 <span className="education__score">{edu.score}</span>
-                {edu.scoreDetail && (
+                {edu.scoreDetail && edu.scoreDetail !== 'N/A' && (
                   <span className="education__score-detail">{edu.scoreDetail}</span>
                 )}
               </div>
@@ -46,7 +45,7 @@ export default function Education() {
               </div>
 
               <a className="education__link" href={edu.visitLink} target="_blank" rel="noreferrer">
-                Visit ↗
+                Visit University Site →
               </a>
             </div>
           </div>

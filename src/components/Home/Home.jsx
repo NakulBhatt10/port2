@@ -79,7 +79,7 @@ export default function Home() {
 
       <div className="hero__status">
         <span className="hero__dot" />
-        {data.about.status} · Galway, Ireland
+        {data.about.status} · {data.about.location}
       </div>
 
       <h1 className="hero__headline">{greeting}</h1>

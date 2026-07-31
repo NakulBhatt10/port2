@@ -1,13 +1,6 @@
 import React from 'react';
-import sirenImage from './siren.png';
-import jioImage from '../../assets/images/jio.jpg';
 import data from '../../data.json';
 import './WorkExperience.css';
-
-const IMAGES = {
-  Siren: sirenImage,
-  'Reliance Jio': jioImage,
-};
 
 function techTags(coreTech) {
   return coreTech.flatMap((line) => {
@@ -24,6 +17,7 @@ export default function WorkExperience() {
         <span className="section-rule" />
       </div>
       <h2>Where I've worked</h2>
+      <p className="experience__intro">Internships and leadership roles that shaped my development and teamwork skills.</p>
 
       <div className="experience__list">
         {data.workExperience.map((job) => (
@@ -36,13 +30,16 @@ export default function WorkExperience() {
               <div className="experience__header">
                 <div className="experience__top-row">
                   <span className="experience__company">{job.company}</span>
-                  <a className="experience__link" href={job.visitLink} target="_blank" rel="noreferrer">
-                    Visit ↗
-                  </a>
+                  {job.type && <span className="experience__type-badge">{job.type}</span>}
+                  {job.visitLink && job.visitLink !== 'N/A' && (
+                    <a className="experience__link" href={job.visitLink} target="_blank" rel="noreferrer">
+                      Visit ↗
+                    </a>
+                  )}
                 </div>
                 <div className="experience__tenure">
                   <span className="experience__duration mono">{job.duration}</span>
-                  <span className="experience__total-badge">{job.totalDuration}</span>
+                  {job.location && <span className="experience__location mono">{job.location}</span>}
                 </div>
               </div>
 
@@ -81,13 +78,10 @@ export default function WorkExperience() {
 
             </div>
 
-            {/* ── Right: company image ── */}
-            <img
-              className="experience__photo"
-              src={IMAGES[job.company]}
-              alt={job.company}
-              loading="lazy"
-            />
+            {/* ── Right: company image placeholder ── */}
+            <div className="experience__img-placeholder">
+              <span>{job.company}</span>
+            </div>
 
           </div>
         ))}

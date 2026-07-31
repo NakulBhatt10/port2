@@ -1,9 +1,10 @@
 import React from 'react';
-import consoleDemo from '../../assets/images/console.gif';
 import data from '../../data.json';
 import './RecentWork.css';
 
 export default function RecentWork() {
+  if (!data.recentWork || data.recentWork.length === 0) return null;
+
   const work = data.recentWork[0];
 
   return (
@@ -27,7 +28,6 @@ export default function RecentWork() {
             <a href={work.githubLink} target="_blank" rel="noreferrer">GitHub ↗</a>
           </div>
         </div>
-        <img className="recent__demo" src={consoleDemo} alt="Console Log with Emoji demo" loading="lazy" />
       </div>
     </section>
   );

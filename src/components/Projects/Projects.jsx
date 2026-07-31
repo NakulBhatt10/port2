@@ -1,13 +1,6 @@
 import React from 'react';
-import brainStackImage from '../../assets/images/brain-stack-1.png';
-import rapidBasketImage from '../../assets/images/rapis-basket.png';
 import data from '../../data.json';
 import './Projects.css';
-
-const IMAGES = {
-  brainStack: brainStackImage,
-  rapidBasket: rapidBasketImage,
-};
 
 export default function Projects() {
   return (
@@ -21,12 +14,23 @@ export default function Projects() {
       <div className="projects__grid">
         {data.projects.map((project) => (
           <div key={project.id} className="projects__card card">
-            <img className="projects__img" src={IMAGES[project.imageKey]} alt={project.title} loading="lazy" />
+            {/* Image placeholder — will be filled with actual screenshots later */}
+            <div className="projects__img-placeholder">
+              <span>{project.title}</span>
+            </div>
+
             <div className="projects__body">
               <div className="projects__meta">
-                <span className="projects__date mono">{project.date}</span>
+                {project.date && project.date !== 'N/A' && (
+                  <span className="projects__date mono">{project.date}</span>
+                )}
               </div>
               <h3>{project.title}</h3>
+
+              {/* Project description */}
+              {project.description && (
+                <p className="projects__description">{project.description}</p>
+              )}
 
               {/* Categorised tech stack */}
               <div className="projects__categories">
@@ -43,8 +47,8 @@ export default function Projects() {
               </div>
 
               <div className="projects__links">
-                <a href={project.liveLink} target="_blank" rel="noreferrer">Live demo ↗</a>
-                <a href={project.githubLink} target="_blank" rel="noreferrer">GitHub ↗</a>
+                <a href={project.liveLink} target="_blank" rel="noreferrer">Live Website →</a>
+                <a href={project.githubLink} target="_blank" rel="noreferrer">GitHub Repo →</a>
               </div>
             </div>
           </div>

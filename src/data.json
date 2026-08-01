@@ -149,38 +149,7 @@
       "description": "Data Analysis with Python by IBM",
       "link": "https://www.credly.com/badges/0c2b9ac0-aafe-4ea4-9aac-fa2fecbb4a4a/public_url"
     },
-    {
-      "id": 2,
-      "name": "OCI AI Foundations",
-      "image": "N/A",
-      "score": "Certified",
-      "description": "OCI AI Foundations",
-      "link": "https://mylearn.oracle.com/ou/learning-path/become-a-oci-ai-foundations-associate-2025/147781"
-    },
-    {
-      "id": 3,
-      "name": "OCI Generative AI",
-      "image": "N/A",
-      "score": "95%",
-      "description": "Data science by IBM",
-      "link": "https://mylearn.oracle.com/ou/learning-path/become-an-oci-generative-ai-professional-2025/147863"
-    },
-    {
-      "id": 4,
-      "name": "Oracle AI Vector Search",
-      "image": "N/A",
-      "score": "91%",
-      "description": "Machine Learning by IBM",
-      "link": "https://mylearn.oracle.com/ou/learning-path/become-an-oracle-ai-vector-search-professional/144854"
-    },
-    {
-      "id": 5,
-      "name": "OCI Data Science",
-      "image": "N/A",
-      "score": "95%",
-      "description": "Specialization by Coursera",
-      "link": "https://mylearn.oracle.com/ou/learning-path/become-an-oci-data-science-professional-2025/148474"
-    },
+
     {
       "id": 6,
       "name": "React Basics by Coursera",
@@ -304,5 +273,16 @@
       { "name": "Mac", "iconKey": "mac", "link": "https://www.apple.com/macos/" }
     ]
   },
-  "recentWork": []
+  "recentWork": [{
+  "id": 1,
+  "title": "FinQuest – AI Powered Stock Market Learning Platform",
+  "version": "2.0",
+  "downloads": "Flagship Project",
+  "description": "FinQuest is an AI-powered stock market simulator that helps beginners master trading without risking real money. Users receive virtual coins to trade using real-time market data while learning technical analysis, candlestick patterns, risk management, and portfolio building. Integrated AI analyzes live market conditions and suggests potential Buy, Sell, or Hold opportunities with explanations, allowing users to learn smart trading through hands-on experience in a gamified environment.",
+  "searchName": "Learn • Simulate • Predict • Invest Smarter",
+  "marketplaceLink": "https://your-live-demo-link.com",
+  "githubLink": "https://github.com/NakulBhatt10/FinQuest"
+}]
+
+
 }

@@ -49,3 +49,38 @@
     width: 100%;
   }
 }
+.recent__card{
+    display:grid;
+    grid-template-columns:1.2fr 1fr;
+    gap:32px;
+    align-items:center;
+}
+
+.recent__image{
+    width:100%;
+}
+
+.recent__img{
+    width:100%;
+    border-radius:18px;
+    object-fit:cover;
+    box-shadow:0 15px 40px rgba(0,0,0,.18);
+    transition:.35s;
+}
+
+.recent__img:hover{
+    transform:scale(1.02);
+}
+
+.recent__highlights{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin:20px 0;
+}
+
+@media (max-width:900px){
+    .recent__card{
+        grid-template-columns:1fr;
+    }
+}
